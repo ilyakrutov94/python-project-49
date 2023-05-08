@@ -12,7 +12,7 @@ def check_answer(name='Bill'):
                               f'Question: {question}\n'
                               'Your answer: ')
         count = answer(guess, equation, count, name)
-    print(f"Congratulations, {name}")
+    print(f"Congratulations, {name}!")
 
 
 if __name__ == "__main__":
