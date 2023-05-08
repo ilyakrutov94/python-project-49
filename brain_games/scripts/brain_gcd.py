@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-from brain_games.games.even_answer import check_answer
+from brain_games.games.gcd_answer import check_answer
 import brain_games.scripts.brain_game
 
 
