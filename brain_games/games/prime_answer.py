@@ -1,4 +1,4 @@
-from brain_games.calculator import check_even
+from brain_games.calculator import prime_check
 from brain_games.answers import answer
 import prompt
 
@@ -6,12 +6,12 @@ import prompt
 def check_answer(name='Bill'):
     count = 3
     while count != 0:
-        question, equation = check_even()
+        number, prime = prime_check()
         guess = prompt.string('Answer "yes" if the number is even, '
                               'otherwise answer "no".\n'
-                              f'Question: {question}\n'
+                              f'Question: {number}\n'
                               'Your answer: ')
-        count = answer(guess, equation, count, name)
+        count = answer(guess, prime, count, name)
     print(f"Congratulations, {name}")
 
 

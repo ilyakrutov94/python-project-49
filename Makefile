@@ -10,7 +10,9 @@ brain-calc:
 brain-gcd:
 	poetry run brain_gcd
 brain-prg:
-	poetry run brain_progression	
+	poetry run brain_progression
+brain-prime:
+	poetry run brain_prime		
 build:
 	poetry build
 publish:
