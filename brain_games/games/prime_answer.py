@@ -12,7 +12,7 @@ def check_answer(name='Bill'):
                               f'Question: {number}\n'
                               'Your answer: ')
         count = answer(guess, prime, count, name)
-    print(f"Congratulations, {name}")
+    print(f"Congratulations, {name}!")
 
 
 if __name__ == "__main__":
