@@ -11,7 +11,10 @@ def check_answer(name='Bill'):
                               f'Question: {string_of_numbers}\n'
                               'Your answer: ')
         count = answer(guess, missing_number, count, name)
-    print(f"Congratulations, {name}")
+        if count == 3:
+            break
+    if count == 0:
+        print(f"Congratulations, {name}!")
 
 
 if __name__ == "__main__":

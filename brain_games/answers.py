@@ -4,7 +4,7 @@ def answer(guess, equation, count, name):
         print("Correct!")
         return count
     else:
-        print(f"'{guess}'is wrong answer;(. Correct answer "
+        print(f"'{guess}' is wrong answer ;(. Correct answer "
               f"was '{equation}'.\n"
               f"Let's try again, {name}!")
         count = 3
