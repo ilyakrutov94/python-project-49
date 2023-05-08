@@ -7,7 +7,7 @@ def check_answer(name='Bill'):
     count = 3
     while count != 0:
         number, prime = prime_check()
-        guess = prompt.string('Answer "yes" if the number is even, '
+        guess = prompt.string('Answer "yes" if the number is prime, '
                               'otherwise answer "no".\n'
                               f'Question: {number}\n'
                               'Your answer: ')
