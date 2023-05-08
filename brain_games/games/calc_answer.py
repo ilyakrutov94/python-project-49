@@ -4,7 +4,7 @@ import prompt
 list_of_signs = [" + ", " - ", " * "]
 
 
-def check_answer(name):
+def check_answer(name='Bill'):
     count = 3
     while count != 0:
         number1 = randint(1, 3)
@@ -26,4 +26,4 @@ def check_answer(name):
 
 
 if __name__ == "__main__":
-    check_answer('Bill')
+    check_answer()
