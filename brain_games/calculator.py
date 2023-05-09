@@ -42,9 +42,9 @@ def prg_check():
     start = randint(2, 4)
     itera = randint(2, 4)
     leng = randint(5, 10)
-    stop = start + itera*leng
+    stop = start + itera * leng
     list1 = [str(i) for i in range(start, stop, itera)]
-    position = randint(0, len(list1)-1)
+    position = randint(0, len(list1) - 1)
     number = list1[position]
     list1[position] = '..'
     list_new = ' '.join(list1)
@@ -54,7 +54,7 @@ def prg_check():
 def prime_check():
     number = randint(1, 100)
     dividers = 0
-    for i in range(2, number // 2+1):
+    for i in range(2, number // 2 + 1):
         if number % i == 0:
             dividers += 1
     if dividers <= 0:
